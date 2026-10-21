@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+}
+main{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+body{
+  margin: 0px;
+  background-color: hsla(263, 83%, 7%, 0.959);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header{
+  background-color: hsla(263, 59%, 32%, 0.959);
+  width: 100%;
+}
+main p{
+  text-align: left;
+  font-size: 2em;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.aboutmain p{
+  text-align: left;
+  font-size: 2em;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#home{
+  padding-left: 55px;
+  display: flex;
+}
+#home:hover{
+  text-decoration: underline;
+  color: hsl(350, 69%, 87%);
+}
+a:link{
+  color: hsl(0, 0%, 100%);
+}
+a:visited{
+  color: hsl(0, 0%, 100%);
+}
+.headcontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.item{
+  height: 60px;
+  width: 80px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+}
+.item a{
+  text-decoration: none;
+}
+.item a:hover{
+  text-decoration: underline;
+  color: hsl(350, 69%, 87%);
+}
+.item1{
+  margin-left: 50px;
+  margin-right: auto;
+  flex-basis: 200px;
+  font-size: 2em;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.item4{
+  margin-right: 50px;
+}
+#indexp a{
+  text-decoration: underline;
+}
+#indexp a:hover{
+  text-decoration: none;
+  color: hsl(350, 69%, 87%);
+}
+#maintitle{
+  text-align: center;
+  font-size: 5em;
+}
+#subtitle{
+  text-align: center;
+  font-size: 2em;
+}
+main{
+  flex: 1;  ;
+}
+.chartcontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.chartcontainer img{
+  max-width: 100%;
+}
+main li{
+  text-align: left;
+  font-size: 2em;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.nowheadings{
+  text-align: left;
+  font-size: 2em;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#subtitle2{
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+  bottom: 60px;
+}
+.nowlist li{
+  list-style-type:square;
+  padding-bottom: 15px;
+}
+.blogbox{
+  width: 80%;
+  max-width: 446px;
+  margin: 0 auto;
+}
+.blogimg img{
+  display: flex;
+  margin: 0 auto;
+}
+.footcontainer{
+  display: flex;
+  justify-content:center;
+  column-gap: 1em;
+  background-color:hsl(263, 59%, 32%, 0.959)
+}
+.footcontainer img{
+  padding-top: 10px;
+}
